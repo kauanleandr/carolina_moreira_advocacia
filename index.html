@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dra. Carolina Moreira | Advocacia Criminal & Plantão 24h</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: {
+                            800: '#0c162d',
+                            900: '#070d1b',
+                            950: '#04070e',
+                        },
+                        gold: {
+                            400: '#f3c77c',
+                            500: '#d4af37',
+                            600: '#aa820a',
+                        },
+                        emerald: {
+                            500: '#10b981',
+                            600: '#059669',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #04070e;
+            color: #e2e8f0;
+        }
+        .font-serif-title {
+            font-family: 'Playfair Display', serif;
+        }
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #fceabb 0%, #f3c77c 50%, #d4af37 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .gold-border-glow {
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.15);
+        }
+        .whatsapp-glow {
+            box-shadow: 0 0 25px rgba(16, 185, 129, 0.4);
+        }
+        @keyframes pulse-ring {
+            0% { transform: scale(0.95); opacity: 0.8; }
+            50% { transform: scale(1.15); opacity: 0.4; }
+            100% { transform: scale(0.95); opacity: 0.8; }
+        }
+        .pulse-animation {
+            animation: pulse-ring 2s infinite ease-in-out;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-gold-500 selection:text-navy-950">
+
+    <!-- Top Emergency Banner -->
+    <div class="bg-red-950/80 border-b border-red-800/40 text-red-200 text-xs sm:text-sm py-2 px-4 text-center font-medium backdrop-blur-md flex items-center justify-center gap-2">
+        <span class="inline-block w-2.5 h-2.5 rounded-full bg-red-500 animate-ping"></span>
+        <span><strong>PLANTÃO CRIMINAL URGENTE 24H:</strong> Atendimento imediato para prisões e flagrantes neste momento.</span>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header class="sticky top-0 z-40 bg-navy-900/90 backdrop-blur-md border-b border-slate-800/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <!-- Brand Logo -->
+            <a href="#" class="flex flex-col">
+                <span class="font-serif-title text-xl sm:text-2xl font-bold tracking-wide text-slate-100">
+                    CAROLINA MOREIRA
+                </span>
+                <span class="text-xs tracking-widest text-gold-400 font-medium uppercase">
+                    Advocacia Criminalista
+                </span>
+            </a>
+
+            <!-- Desktop Nav Items -->
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+                <a href="#urgencia" class="hover:text-gold-400 transition-colors">Atendimento 24h</a>
+                <a href="#atuacao" class="hover:text-gold-400 transition-colors">Áreas de Atuação</a>
+                <a href="#passos" class="hover:text-gold-400 transition-colors">Como Funciona</a>
+                <a href="#sobre" class="hover:text-gold-400 transition-colors">Dra. Carolina</a>
+            </nav>
+
+            <!-- Direct Action Button -->
+            <div class="flex items-center gap-3">
+                <a href="https://wa.me/91991425198?text=Olá,%20Dra.%20Carolina!%20Preciso%20de%20atendimento%20urgente%20em%20materia%20criminal." 
+                   target="_blank"
+                   class="bg-emerald-600 hover:bg-emerald-500 text-white text-xs sm:text-sm font-semibold px-4 py-2.5 rounded-lg flex items-center gap-2 transition-all transform hover:scale-105 shadow-md">
+                    <i class="fa-brands fa-whatsapp text-lg"></i>
+                    <span class="hidden sm:inline">WhatsApp Plantão</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION (Prisão em Flagrante Focus) -->
+    <section id="urgencia" class="relative pt-12 pb-20 md:pt-20 md:pb-32 overflow-hidden bg-gradient-to-b from-navy-900 via-navy-800 to-navy-950">
+        <!-- Background Ambient Glow -->
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-gold-500/10 rounded-full blur-[120px] pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Left Hero Content -->
+                <div class="lg:col-span-7 text-center lg:text-left">
+                    
+                    <!-- Live Status Badge -->
+                    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-gold-500/10 border border-gold-500/30 text-gold-400 text-xs font-medium mb-6">
+                        <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                        Advogada Criminalista Online para Atendimento Urgente
+                    </div>
+
+                    <!-- Main Headline -->
+                    <h1 class="font-serif-title text-3xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
+                        Prisão em Flagrante? <br/>
+                        <span class="gold-gradient-text">Defesa Criminal Urgente 24h</span>
+                    </h1>
+
+                    <!-- Subtitle -->
+                    <p class="text-slate-300 text-base sm:text-lg mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                        As primeiras horas são decisivas para a liberdade. Acompanhamento imediato em delegacias, pedidos de liberdade provisória e atuação estratégica na <strong>Audiência de Custódia</strong>.
+                    </p>
+
+                    <!-- Main Call to Action Buttons -->
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mb-10">
+                        <a href="https://wa.me/5591991425198?text=URGENTE:%20Preciso%20de%20advogado%20para%20acompanhar%20prisao%20em%20flagrante." 
+                           target="_blank"
+                           class="w-full sm:w-auto bg-emerald-600 hover:bg-emerald-500 text-white text-base font-bold px-8 py-4 rounded-xl flex items-center justify-center gap-3 transition-all transform hover:scale-105 whatsapp-glow">
+                            <i class="fa-brands fa-whatsapp text-2xl"></i>
+                            <span>Falar no WhatsApp (Plantão 24h)</span>
+                        </a>
+
+                        <button onclick="scrollToSection('como-funciona')" class="w-full sm:w-auto bg-navy-800 hover:bg-slate-800 text-slate-200 border border-slate-700 font-medium px-6 py-4 rounded-xl transition-all">
+                            Como Funciona a Defesa
+                        </button>
+                    </div>
+
+                    <!-- Key Trust Indicators -->
+                    <div class="pt-6 border-t border-slate-800/80 grid grid-cols-3 gap-4 text-center lg:text-left">
+                        <div>
+                            <p class="text-gold-400 font-bold text-xl sm:text-2xl">Imediato</p>
+                            <p class="text-xs text-slate-400">Atendimento 24/7</p>
+                        </div>
+                        <div>
+                            <p class="text-gold-400 font-bold text-xl sm:text-2xl">Sigilo</p>
+                            <p class="text-xs text-slate-400">Total Absoluto</p>
+                        </div>
+                        <div>
+                            <p class="text-gold-400 font-bold text-xl sm:text-2xl">Estratégia</p>
+                            <p class="text-xs text-slate-400">Focada na Liberdade</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Right Urgency Card & Direct Action Form -->
+                <div class="lg:col-span-5">
+                    <div class="bg-navy-900 border border-gold-500/20 rounded-2xl p-6 sm:p-8 shadow-2xl relative gold-border-glow">
+                        <div class="absolute -top-3 right-6 bg-gold-500 text-navy-950 font-bold text-xs px-3 py-1 rounded-full uppercase tracking-wider">
+                            Atendimento Rápido
+                        </div>
+
+                        <h3 class="font-serif-title text-2xl font-bold text-white mb-2">Solicitar Contato Urgente</h3>
+                        <p class="text-slate-400 text-sm mb-6">Preencha rapidamente para que nossa equipe entre em contato em menos de 5 minutos.</p>
+
+                        <form onsubmit="handleFormSubmit(event)" class="space-y-4">
+                            <div>
+                                <label class="block text-xs font-semibold uppercase text-slate-400 mb-1">Seu Nome / Familiar</label>
+                                <input type="text" id="form-name" required placeholder="Digite o nome completo" class="w-full bg-navy-950 border border-slate-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-gold-500 transition-colors text-sm">
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-semibold uppercase text-slate-400 mb-1">Telefone / WhatsApp</label>
+                                <input type="tel" id="form-phone" required placeholder="(00) 90000-0000" class="w-full bg-navy-950 border border-slate-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-gold-500 transition-colors text-sm">
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-semibold uppercase text-slate-400 mb-1">Qual é a Situação Urgente?</label>
+                                <select id="form-service" class="w-full bg-navy-950 border border-slate-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-gold-500 transition-colors text-sm">
+                                    <option value="Prisão em Flagrante">Prisão em Flagrante (Delegacia)</option>
+                                    <option value="Audiência de Custódia">Audiência de Custódia</option>
+                                    <option value="Execução Penal">Execução Penal / Benefícios</option>
+                                    <option value="Acompanhamento Processual">Processo Criminal / Defesa</option>
+                                </select>
+                            </div>
+
+                            <button type="submit" class="w-full bg-gold-500 hover:bg-gold-400 text-navy-950 font-bold py-3.5 rounded-lg transition-all text-sm uppercase tracking-wider flex items-center justify-center gap-2">
+                                <i class="fa-solid fa-paper-plane"></i>
+                                Chamar Advogado Agora
+                            </button>
+
+                            <p class="text-[11px] text-slate-500 text-center mt-3">
+                                <i class="fa-solid fa-lock text-gold-500/70 mr-1"></i> Seus dados estão seguros sob o Sigilo Profissional da OAB.
+                            </p>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- DIFFERENTIAL / URGENCY CARDS -->
+    <section class="py-16 bg-navy-950 border-t border-b border-slate-800/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <!-- Card 1 -->
+                <div class="bg-navy-900/60 p-6 rounded-xl border border-slate-800 hover:border-gold-500/40 transition-all">
+                    <div class="w-12 h-12 rounded-lg bg-gold-500/10 flex items-center justify-center text-gold-400 text-xl mb-4">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <h4 class="font-serif-title text-lg font-bold text-white mb-2">Deslocamento à Delegacia</h4>
+                    <p class="text-slate-400 text-sm">Atuação presencial imediata no local da prisão para garantia dos direitos fundamentais.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-navy-900/60 p-6 rounded-xl border border-slate-800 hover:border-gold-500/40 transition-all">
+                    <div class="w-12 h-12 rounded-lg bg-gold-500/10 flex items-center justify-center text-gold-400 text-xl mb-4">
+                        <i class="fa-solid fa-gavel"></i>
+                    </div>
+                    <h4 class="font-serif-title text-lg font-bold text-white mb-2">Audiência de Custódia</h4>
+                    <p class="text-slate-400 text-sm">Preparação rápida e sustentação oral para buscar o relaxamento da prisão ou liberdade provisória.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-navy-900/60 p-6 rounded-xl border border-slate-800 hover:border-gold-500/40 transition-all">
+                    <div class="w-12 h-12 rounded-lg bg-gold-500/10 flex items-center justify-center text-gold-400 text-xl mb-4">
+                        <i class="fa-solid fa-clock"></i>
+                    </div>
+                    <h4 class="font-serif-title text-lg font-bold text-white mb-2">Plantão 24 Horas</h4>
+                    <p class="text-slate-400 text-sm">Disponibilidade ininterrupta em finais de semana, feriados e madrugadas para casos de emergência.</p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="bg-navy-900/60 p-6 rounded-xl border border-slate-800 hover:border-gold-500/40 transition-all">
+                    <div class="w-12 h-12 rounded-lg bg-gold-500/10 flex items-center justify-center text-gold-400 text-xl mb-4">
+                        <i class="fa-solid fa-scale-balanced"></i>
+                    </div>
+                    <h4 class="font-serif-title text-lg font-bold text-white mb-2">Habeas Corpus</h4>
+                    <p class="text-slate-400 text-sm">Elaboração urgente de medidas liminares perante os Tribunais para combater prisões ilegais.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- DYNAMIC SERVICES TABS (Flagrante, Execução Penal, Processo) -->
+    <section id="atuacao" class="py-20 bg-navy-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <h2 class="text-xs font-semibold text-gold-400 tracking-widest uppercase mb-2">Áreas Principais de Atuação</h2>
+                <h3 class="font-serif-title text-3xl sm:text-4xl font-bold text-white">Como Podemos Ajudar Seu Caso</h3>
+                <p class="text-slate-400 text-sm sm:text-base mt-3">Selecione abaixo a fase do problema para entender a atuação jurídica específica.</p>
+            </div>
+
+            <!-- Tab Buttons -->
+            <div class="flex justify-center mb-10">
+                <div class="bg-navy-950 p-1.5 rounded-xl border border-slate-800 flex flex-wrap justify-center gap-2 max-w-2xl w-full">
+                    <button onclick="switchTab('flagrante')" id="tab-btn-flagrante" class="tab-btn px-5 py-3 rounded-lg text-sm font-semibold transition-all flex-1 text-center bg-gold-500 text-navy-950 shadow-md">
+                        <i class="fa-solid fa-handcuffs mr-2"></i> Prisão em Flagrante
+                    </button>
+                    <button onclick="switchTab('execucao')" id="tab-btn-execucao" class="tab-btn px-5 py-3 rounded-lg text-sm font-semibold transition-all flex-1 text-center text-slate-400 hover:text-white">
+                        <i class="fa-solid fa-building-columns mr-2"></i> Execução Penal
+                    </button>
+                    <button onclick="switchTab('processo')" id="tab-btn-processo" class="tab-btn px-5 py-3 rounded-lg text-sm font-semibold transition-all flex-1 text-center text-slate-400 hover:text-white">
+                        <i class="fa-solid fa-folder-open mr-2"></i> Processo Criminal
+                    </button>
+                </div>
+            </div>
+
+            <!-- Tab Content Display -->
+            <div class="bg-navy-950 border border-slate-800 rounded-2xl p-6 sm:p-10">
+                
+                <!-- Tab Content 1: Prisão em Flagrante -->
+                <div id="tab-content-flagrante" class="tab-content grid lg:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <span class="inline-block px-3 py-1 rounded bg-red-950 text-red-400 border border-red-800/50 text-xs font-bold mb-3">URGÊNCIA MÁXIMA</span>
+                        <h4 class="font-serif-title text-2xl font-bold text-white mb-4">Prisão em Flagrante e Custódia</h4>
+                        <p class="text-slate-300 text-sm leading-relaxed mb-6">
+                            Quando alguém é preso em flagrante, as primeiras providências tomadas pelo advogado definem se a pessoa responderá ao processo presa ou em liberdade. Acompanhamos o depoimento na delegacia, garantimos o direito ao silêncio e impetramos o pedido de Liberdade Provisória na Audiência de Custódia.
+                        </p>
+                        <ul class="space-y-3 text-sm text-slate-300 mb-8">
+                            <li class="flex items-center gap-3">
+                                <i class="fa-solid fa-check text-gold-400"></i> Acompanhamento imediato do flagrante na Delegacia
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <i class="fa-solid fa-check text-gold-400"></i> Pedido de Relaxamento de Prisão Ilegal
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <i class="fa-solid fa-check text-gold-400"></i> Defesa Técnica na Audiência de Custódia
+                            </li>
+                        </ul>
+                        <a href="https://wa.me/5591991425198?text=Preciso%20de%20ajuda%20urgente%20com%20Pris%C3%A3o%20em%20Flagrante" target="_blank" class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-6 py-3 rounded-lg text-sm transition-all">
+                            <i class="fa-brands fa-whatsapp text-lg"></i> Falar sobre Prisão em Flagrante
+                        </a>
+                    </div>
+                    <div class="bg-navy-900 p-6 rounded-xl border border-slate-800">
+                        <h5 class="text-gold-400 font-semibold text-sm mb-3">O que fazer imediatamente se um familiar for preso?</h5>
+                        <ol class="list-decimal list-inside text-xs text-slate-300 space-y-3 leading-relaxed">
+                            <li><strong>Mantenha a calma:</strong> Evite qualquer discussão no local do ocorrido.</li>
+                            <li><strong>Não preste depoimento sem advogado:</strong> O preso tem o direito constitucional de permanecer em silêncio.</li>
+                            <li><strong>Ligue para o Plantão Criminal:</strong> Entre em contato conosco imediatamente para irmos à delegacia.</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <!-- Tab Content 2: Execução Penal -->
+                <div id="tab-content-execucao" class="tab-content hidden grid lg:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <span class="inline-block px-3 py-1 rounded bg-gold-500/10 text-gold-400 border border-gold-500/30 text-xs font-bold mb-3">DIREITOS DO APENADO</span>
+                        <h4 class="font-serif-title text-2xl font-bold text-white mb-4">Assessoria em Execução Penal</h4>
+                        <p class="text-slate-300 text-sm leading-relaxed mb-6">
+                            Atuação especializada para quem já cumpre pena e busca a progressão de regime (fechado para o semiaberto ou aberto), livramento condicional, remição de pena por trabalho/estudo ou saídas temporárias.
+                        </p>
+                        <ul class="space-y-3 text-sm text-slate-300 mb-8">
+                            <li class="flex items-center gap-3">
+                                <i class="fa-solid fa-check text-gold-400"></i> Cálculo e pedido de Progressão de Regime
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <i class="fa-solid fa-check text-gold-400"></i> Pedido de Livramento Condicional
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <i class="fa-solid fa-check text-gold-400"></i> Remição de Pena por Trabalho e Leitura
+                            </li>
+                        </ul>
+                        <a href="https://wa.me/5500000000000?text=Gostaria%20de%20informac%C3%B5es%20sobre%20Execucao%20Penal" target="_blank" class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-6 py-3 rounded-lg text-sm transition-all">
+                            <i class="fa-brands fa-whatsapp text-lg"></i> Falar sobre Execução Penal
+                        </a>
+                    </div>
+                    <div class="bg-navy-900 p-6 rounded-xl border border-slate-800">
+                        <h5 class="text-gold-400 font-semibold text-sm mb-3">Revisão de Pena e Cálculos</h5>
+                        <p class="text-xs text-slate-300 leading-relaxed">
+                            Verificamos se há excesso de execução ou atraso na concessão de benefícios aos quais o apenado já tem direito legalmente.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Tab Content 3: Processo Criminal -->
+                <div id="tab-content-processo" class="tab-content hidden grid lg:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <span class="inline-block px-3 py-1 rounded bg-blue-950 text-blue-400 border border-blue-800/50 text-xs font-bold mb-3">DEFESA COMPLETA</span>
+                        <h4 class="font-serif-title text-2xl font-bold text-white mb-4">Defesa em Processo Criminal</h4>
+                        <p class="text-slate-300 text-sm leading-relaxed mb-6">
+                            Defesa técnica completa do início ao fim da ação penal. Elaboração de Resposta à Acusação, acompanhamento de audiências de instrução e julgamento, alegações finais e recursos para instâncias superiores.
+                        </p>
+                        <ul class="space-y-3 text-sm text-slate-300 mb-8">
+                            <li class="flex items-center gap-3">
+                                <i class="fa-solid fa-check text-gold-400"></i> Defesa Técnica Inicial (Resposta à Acusação)
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <i class="fa-solid fa-check text-gold-400"></i> Inquirição de Testemunhas e Provas Tecnica
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <i class="fa-solid fa-check text-gold-400"></i> Recursos em Tribunais (TJ, STJ e STF)
+                            </li>
+                        </ul>
+                        <a href="https://wa.me/5500000000000?text=Preciso%20de%20defesa%20em%20Processo%20Criminal" target="_blank" class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-6 py-3 rounded-lg text-sm transition-all">
+                            <i class="fa-brands fa-whatsapp text-lg"></i> Falar sobre Defesa em Processo
+                        </a>
+                    </div>
+                    <div class="bg-navy-900 p-6 rounded-xl border border-slate-800">
+                        <h5 class="text-gold-400 font-semibold text-sm mb-3">Acompanhamento Transparente</h5>
+                        <p class="text-xs text-slate-300 leading-relaxed">
+                            Mantemos a família e o cliente constantemente informados sobre todas as movimentações do processo com linguagem simples e acessível.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- MEDIA / VIDEO SECTION (Explaining Custody & Rights) -->
+    <section class="py-20 bg-navy-950 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Video Mockup Frame -->
+                <div class="lg:col-span-7">
+                    <div class="relative rounded-2xl overflow-hidden border border-gold-500/30 bg-navy-900 shadow-2xl group">
+                        
+                        <!-- Video Thumbnail Mockup -->
+                        <div class="aspect-video relative bg-slate-900 flex items-center justify-center">
+                            <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=80" alt="Dra Carolina Moreira" class="w-full h-full object-cover opacity-40 group-hover:scale-105 transition-transform duration-500">
+                            
+                            <!-- Play Overlay Button -->
+                            <button onclick="playVideoModal()" class="absolute w-20 h-20 rounded-full bg-gold-500 hover:bg-gold-400 text-navy-950 flex items-center justify-center text-2xl shadow-xl transition-all transform hover:scale-110">
+                                <i class="fa-solid fa-play ml-1"></i>
+                            </button>
+
+                            <!-- Video Badge -->
+                            <div class="absolute bottom-4 left-4 bg-navy-900/90 backdrop-blur-md px-3 py-1.5 rounded-lg border border-slate-700 text-xs text-slate-200">
+                                <i class="fa-solid fa-video text-gold-400 mr-2"></i> Explicativo: O que fazer no Flagrante
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Video Explanation Text -->
+                <div class="lg:col-span-5">
+                    <h2 class="text-xs font-semibold text-gold-400 tracking-widest uppercase mb-2">Entenda Seus Direitos</h2>
+                    <h3 class="font-serif-title text-3xl font-bold text-white mb-4">
+                        Assista: Orientações Fundamentais para Casos de Prisão
+                    </h3>
+                    <p class="text-slate-300 text-sm leading-relaxed mb-6">
+                        Neste curto vídeo de 2 minutos, a Dra. Carolina Moreira explica os passos essenciais que a família deve tomar assim que toma conhecimento de uma prisão em flagrante.
+                    </p>
+
+                    <div class="space-y-4 text-sm text-slate-300">
+                        <div class="flex items-start gap-3">
+                            <i class="fa-solid fa-circle-check text-gold-400 mt-1"></i>
+                            <span>Como funciona o direito de permanecer em silêncio</span>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <i class="fa-solid fa-circle-check text-gold-400 mt-1"></i>
+                            <span>A importância da presença do advogado no auto de prisão</span>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <i class="fa-solid fa-circle-check text-gold-400 mt-1"></i>
+                            <span>Prazos legais da Audiência de Custódia</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- STEP-BY-STEP WORKFLOW -->
+    <section id="passos" class="py-20 bg-navy-900 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-xs font-semibold text-gold-400 tracking-widest uppercase mb-2">Transparência & Rapidez</h2>
+                <h3 class="font-serif-title text-3xl font-bold text-white">Como Funciona Nosso Atendimento de Urgência</h3>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 relative">
+                
+                <!-- Step 1 -->
+                <div class="bg-navy-950 p-8 rounded-2xl border border-slate-800 text-center relative">
+                    <div class="w-14 h-14 rounded-full bg-gold-500/10 border border-gold-500/30 text-gold-400 font-bold text-xl flex items-center justify-center mx-auto mb-6">
+                        1
+                    </div>
+                    <h4 class="font-serif-title text-xl font-bold text-white mb-3">1. Contato Imediato</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Você entra em contato via WhatsApp do Plantão 24h e nos informa onde ocorreu o fato e para qual delegacia a pessoa foi levada.
+                    </p>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="bg-navy-950 p-8 rounded-2xl border border-slate-800 text-center relative">
+                    <div class="w-14 h-14 rounded-full bg-gold-500/10 border border-gold-500/30 text-gold-400 font-bold text-xl flex items-center justify-center mx-auto mb-6">
+                        2
+                    </div>
+                    <h4 class="font-serif-title text-xl font-bold text-white mb-3">2. Atuação Presencial</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        A advogada se desloca até a unidade policial para acompanhar o depoimento, conversar reservadamente com o cliente e verificar abusos.
+                    </p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="bg-navy-950 p-8 rounded-2xl border border-slate-800 text-center relative">
+                    <div class="w-14 h-14 rounded-full bg-gold-500/10 border border-gold-500/30 text-gold-400 font-bold text-xl flex items-center justify-center mx-auto mb-6">
+                        3
+                    </div>
+                    <h4 class="font-serif-title text-xl font-bold text-white mb-3">3. Busca pela Liberdade</h4>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Organização rápida dos documentos necessários e atuação firme na Audiência de Custódia para requerer a liberdade provisória.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ABOUT ADVOGADA (Carolina Moreira) -->
+    <section id="sobre" class="py-20 bg-navy-950 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Profile Image Mockup -->
+                <div class="lg:col-span-5 text-center">
+                    <div class="relative inline-block">
+                        <div class="w-64 h-64 sm:w-80 sm:h-80 rounded-2xl overflow-hidden border-2 border-gold-500/40 shadow-2xl mx-auto">
+                            <img src="/Dra. Carolina Moreira.jpg" alt="Dra. Carolina Moreira" class="w-full h-full object-cover">
+                        </div>
+                        <!-- OAB Badge Overlay -->
+                        <div class="absolute -bottom-4 right-1/2 translate-x-1/2 lg:translate-x-0 lg:-right-4 bg-navy-900 border border-gold-500/40 px-4 py-2 rounded-lg shadow-lg text-xs font-semibold text-gold-400">
+                            Advocacia Criminal Especializada
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bio Content -->
+                <div class="lg:col-span-7">
+                    <h2 class="text-xs font-semibold text-gold-400 tracking-widest uppercase mb-2">Conheça a Advogada</h2>
+                    <h3 class="font-serif-title text-3xl sm:text-4xl font-bold text-white mb-6">
+                        Dra. Carolina Moreira
+                    </h3>
+                    <p class="text-slate-300 text-base leading-relaxed mb-6">
+                        Atuação pautada pela ética, combatividade e respeito incondicional às garantias fundamentais de seus clientes. Com vasta experiência no Direito Penal, atua de forma humanizada e técnica desde o atendimento inicial em delegacias até a defesa nos Tribunais.
+                    </p>
+
+                    <div class="grid sm:grid-cols-2 gap-4 text-sm text-slate-300 mb-8">
+                        <div class="bg-navy-900 p-4 rounded-lg border border-slate-800">
+                            <i class="fa-solid fa-graduation-cap text-gold-400 text-lg mb-2 block"></i>
+                            <strong>Especialista em Direito Penal</strong>
+                            <p class="text-xs text-slate-400 mt-1">Foco e dedicação exclusiva na área criminal.</p>
+                        </div>
+                        <div class="bg-navy-900 p-4 rounded-lg border border-slate-800">
+                            <i class="fa-solid fa-user-shield text-gold-400 text-lg mb-2 block"></i>
+                            <strong>Atendimento Humanizado</strong>
+                            <p class="text-xs text-slate-400 mt-1">Apoio contínuo à família durante todo o processo.</p>
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/5591991425198?text=Ol%C3%A1,%20Dra.%20Carolina!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank" class="inline-flex items-center gap-2 bg-gold-500 hover:bg-gold-400 text-navy-950 font-bold px-6 py-3.5 rounded-lg text-sm transition-all shadow-md">
+                        <i class="fa-brands fa-whatsapp text-lg"></i> Conversar Diretamente com a Dra. Carolina
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS / AUTHORITY -->
+    <section class="py-20 bg-navy-900 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-xs font-semibold text-gold-400 tracking-widest uppercase mb-2">Depoimentos & Avaliações</h2>
+                <h3 class="font-serif-title text-3xl font-bold text-white">Compromisso com o Cliente</h3>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                
+                <div class="bg-navy-950 p-6 rounded-xl border border-slate-800">
+                    <div class="flex text-gold-400 text-xs gap-1 mb-4">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-4">
+                        "Atendimento impecável da Dra. Carolina de madrugada. Chegou rápido na delegacia e conseguiu a liberdade na audiência de custódia do meu irmão. Gratidão eterna!"
+                    </p>
+                    <span class="text-xs font-bold text-slate-400">— M. S. (Familiar de Cliente)</span>
+                </div>
+
+                <div class="bg-navy-950 p-6 rounded-xl border border-slate-800">
+                    <div class="flex text-gold-400 text-xs gap-1 mb-4">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-4">
+                        "Muito atenciosa e extremamente técnica na Execução Penal. Atualizou a família sobre todos os passos até conseguir a progressão de regime."
+                    </p>
+                    <span class="text-xs font-bold text-slate-400">— R. O. (Cliente)</span>
+                </div>
+
+                <div class="bg-navy-950 p-6 rounded-xl border border-slate-800">
+                    <div class="flex text-gold-400 text-xs gap-1 mb-4">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-slate-300 text-xs sm:text-sm leading-relaxed mb-4">
+                        "Profissional séria e honesta. Explicou a situação real do processo sem promessas falsas e fez um trabalho brilhante na defesa."
+                    </p>
+                    <span class="text-xs font-bold text-slate-400">— J. F. (Cliente)</span>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER CTA -->
+    <section class="py-16 bg-gradient-to-r from-navy-950 via-navy-900 to-navy-950 border-t border-slate-800 text-center">
+        <div class="max-w-4xl mx-auto px-4">
+            <h3 class="font-serif-title text-3xl font-bold text-white mb-4">
+                Precisa de Assistência Jurídica Criminal Agora?
+            </h3>
+            <p class="text-slate-300 text-sm sm:text-base mb-8">
+                Não deixe para depois. Cada minuto conta para a garantia dos direitos fundamentais.
+            </p>
+            <a href="https://wa.me/5591991425198?text=Preciso%20de%20atendimento%20criminal%20urgente" target="_blank" class="inline-flex items-center gap-3 bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-8 py-4 rounded-xl text-base transition-all transform hover:scale-105 shadow-xl">
+                <i class="fa-brands fa-whatsapp text-2xl"></i>
+                <span>Chamar Advogado de Plantão 24h</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-navy-950 py-12 border-t border-slate-900 text-xs text-slate-500">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div>
+                <p class="font-bold text-slate-300 text-sm">Carolina Moreira - Advocacia Criminal</p>
+                <p class="mt-1">Atendimento de Plantão 24h para Prisões em Flagrante e Defesa Criminal.</p>
+            </div>
+            <div class="text-center md:text-right">
+                <p>&copy; 2026 Dra. Carolina Moreira. Todos os direitos reservados.</p>
+                <p class="mt-1 text-[11px] text-slate-600">Este site cumpre integralmente os preceitos do Código de Ética e Disciplina da OAB.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FLOATING WHATSAPP BUTTON WITH PULSE EFFECT -->
+    <a href="https://wa.me/5591991425198?text=Preciso%20de%20atendimento%20juridico%20criminal%20urgente" 
+       target="_blank" 
+       title="Falar com Advogado 24h"
+       class="fixed bottom-6 right-6 z-50 bg-emerald-500 hover:bg-emerald-400 text-white w-16 h-16 rounded-full flex items-center justify-center text-3xl shadow-2xl transition-transform hover:scale-110 group">
+        <span class="absolute w-full h-full rounded-full bg-emerald-500/40 pulse-animation pointer-events-none"></span>
+        <i class="fa-brands fa-whatsapp relative z-10"></i>
+    </a>
+
+    <!-- VIDEO MODAL POPUP -->
+    <div id="video-modal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm hidden items-center justify-center p-4">
+        <div class="bg-navy-900 border border-slate-800 rounded-2xl max-w-2xl w-full p-6 relative">
+            <button onclick="closeVideoModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white text-xl">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <h4 class="font-serif-title text-xl font-bold text-white mb-4">Orientações sobre Prisão em Flagrante</h4>
+            <div class="aspect-video bg-black rounded-lg flex items-center justify-center text-slate-500">
+                <div class="text-center p-6">
+                    <i class="fa-solid fa-circle-play text-4xl text-gold-400 mb-3"></i>
+                    <p class="text-sm text-slate-300">Player de Vídeo demonstrativo pré-carregado do modelo de landing page.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT LOGIC -->
+    <script>
+        // Tab switching logic
+        function switchTab(tabName) {
+            // Hide all tab contents
+            document.querySelectorAll('.tab-content').forEach(el => {
+                el.classList.add('hidden');
+            });
+
+            // Reset tab button styles
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.remove('bg-gold-500', 'text-navy-950', 'shadow-md');
+                btn.classList.add('text-slate-400');
+            });
+
+            // Show selected content
+            document.getElementById(`tab-content-${tabName}`).classList.remove('hidden');
+
+            // Highlight selected tab button
+            const activeBtn = document.getElementById(`tab-btn-${tabName}`);
+            activeBtn.classList.add('bg-gold-500', 'text-navy-950', 'shadow-md');
+            activeBtn.classList.remove('text-slate-400');
+        }
+
+        // Smooth scroll handler
+        function scrollToSection(id) {
+            document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Form Submission handler
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            const name = document.getElementById('form-name').value;
+            const phone = document.getElementById('form-phone').value;
+            const service = document.getElementById('form-service').value;
+
+            const message = `Olá, Dra. Carolina! Meu nome é ${name} (${phone}). Preciso de ajuda sobre: ${service}.`;
+            const whatsappUrl = `https://wa.me/5591991425198?text=${encodeURIComponent(message)}`;
+
+            window.open(whatsappUrl, '_blank');
+        }
+
+        // Video Modal Control
+        function playVideoModal() {
+            document.getElementById('video-modal').classList.remove('hidden');
+            document.getElementById('video-modal').classList.add('flex');
+        }
+
+        function closeVideoModal() {
+            document.getElementById('video-modal').classList.add('hidden');
+            document.getElementById('video-modal').classList.remove('flex');
+        }
+    </script>
+</body>
+</html>
